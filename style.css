@@ -1,0 +1,171 @@
+
+.navImg{
+    height: 50px;
+    width: 100px;
+}
+.navbar{
+    height: 69px;
+}
+.Auth{
+    display: flex;
+}
+.login{
+    width: 60px;
+    height: 30px;
+}
+/* .login button{
+    background-color: white;
+} */
+.login:hover{
+    border-bottom: red;
+}
+.signup{
+    height: 45px;
+    width: 122px;
+}
+.signup:hover{
+    background-color: black;
+}
+.signup h1{
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.signup h1:hover{
+    color: white;
+}
+.nav-link{
+    margin-left: 30px;
+}
+.outerDiv{
+    height: 525px;
+}
+.mainRow1{
+    height: 525px;
+    /* background-color: aqua; */
+}
+.mainRow2{
+    height: 525px;
+    /* background-color: blueviolet; */
+}   
+.nav-link:hover{
+    border-bottom: 2px solid red;
+}
+.login:hover{
+    border-bottom: 2px solid red;
+}
+.leftsiderow1 h1{
+    margin-top: 36px;
+}
+.mainRow{
+    display: flex;
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    filter: grayscale(100%);
+}
+.imglogo:hover{
+    filter: grayscale(0%)
+}
+.finalTxtA{
+    border-bottom: 2px solid yellow;
+}
+.finalTxtA:hover{
+    border-bottom: 4px solid yellow;
+}
+.Poster{
+    height: 900px;
+    background-color: #02238f;
+    margin-top: 200px;
+}
+@media (max-width: 992px){
+    .Poster{
+        margin-top: 290px;
+    }
+}
+@media (max-width: 768px){
+    .Poster{
+        margin-top: 790px;
+    }
+}
+@media (max-width: 576px){
+    .Poster{
+        margin-top: 880px;
+    }
+}
+@media (max-width: 400px){
+    .Poster{
+        margin-top:  1100px;
+    }
+}
+/* @media screen and (max-height: 700px) {
+    .Poster{
+        min-height: 700px;
+    }
+} */
+
+.Grid{
+    /* background-color: aquamarine; */
+    height: 95vh;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+.fullCards{
+    width: 18rem;
+    height: 216px;
+}
+.FooterCol{
+    border: none;
+    background-color: #1f1e37;
+    height: 340px;
+}
+@media (max-width: 992px){
+    .Footer{
+        margin-top: 490px;
+    }
+}
+@media (max-width: 768px){
+    .Footer{
+        margin-top: 990px;
+    }
+}
+@media (max-width: 576px){
+    .Footer{
+        margin-top: 1000px;
+    }
+}
+@media (max-width: 400px){
+    .Footer{
+        margin-top:  1000px;
+    }
+}
+.FooterAnch{
+   
+    text-decoration: none;
+    color: white;
+}
+.FooterAnch:hover{
+    color: white;
+}
+.FooterCol button{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: transparent;
+}
+
+.FooterCol button:hover{
+    background-color: white;
+    color: black;
+}
+.Footerlogo img{
+    width: 100px;
+    height: 100px;
+}
